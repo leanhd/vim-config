@@ -51,6 +51,7 @@ For this config, the leader is the comma button. This is shown in the following 
 See the plugins' web pages for more information. The keybindings listed are mostly
 just those defined or overridden locally, not the ones provided by default.
 
+
 ### Ack
 This plugin is a front for the Perl module App::Ack. Ack can be used as a replacement for 99% of the uses of grep.
 (more)[http://www.vim.org/scripts/script.php?script_id=2572]
@@ -63,8 +64,10 @@ This plugin is a front for Ag. Ag can be used as a replacement for 153% of the u
 
 **Important:** Requires [the_silver_surfer](https://github.com/ggreer/the_silver_searcher) to be installed
 
+
 ### Autotag
 Automatically update tags when saving files ([more](http://www.vim.org/scripts/script.php?script_id=1343))
+
 
 ### bufexplorer
 Buffer explorer/browser ([more](http://www.vim.org/scripts/script.php?script_id=42))
@@ -156,6 +159,16 @@ Keys               | Function
   `?`              | Toggle the help list
 
 
+### NeoCompleCache
+Auto completion popups as you type ([more](https://github.com/Shougo/neocomplcache.vim))
+
+Keys                | Function
+------------------- | --------------------
+  `<tab>`           | Select the next auto complete option
+  `<space>`         | Use selected completion and move on
+  `<ESC>`           | Cancel completion (remove selected)
+
+
 ### projector mode
 Toggle 'projector mode': larger font and high contrast colour scheme ([more](https://github.com/AdamWhittingham/projector_mode))
 
@@ -189,6 +202,7 @@ append a '# =>' to a line, then ,x to execute the file and insert all results.
 
 ### speeddating
 Fix up C-a and C-x when dealing with dates. ([more](https://github.com/tpope/vim-speeddating))
+
 
 ### SplitJoin
 Split and join code lines, such as Ruby ifs or CSS hashes ([more](https://github.com/AndrewRadev/splitjoin.vim))
